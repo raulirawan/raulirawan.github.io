@@ -1,0 +1,41 @@
+.navbar-raul {
+  @include media-breakpoint-down(md) {
+    background-color: #333647 !important;
+  }
+  .navbar-brand {
+    font-weight: 600;
+    font-size: 36px;
+    color: #f77c57;
+  }
+
+  .nav-item {
+    margin-left: 10px;
+    margin-right: 10px;
+
+    .btn-hire-me {
+      border-radius: 4px;
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      @include button-variant(#f77c57, transparent);
+      color: #fff;
+
+      @include media-breakpoint-down(md) {
+        margin-top: 20px;
+        margin-bottom: 20px;
+      }
+    }
+  }
+
+  .nav-link {
+    color: #fff !important;
+    font-size: 16px !important;
+
+    &:hover {
+      color: rgb(223, 222, 222) !important;
+    }
+  }
+}
+
+.navbar-fixed-top.scrolled {
+  background-color: #333647 !important;
+  transition: background-color 200ms linear;
+}

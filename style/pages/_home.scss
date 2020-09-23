@@ -1,0 +1,234 @@
+.page-home {
+  .section-hero {
+    padding-top: 100px;
+    background-color: #333647;
+    @include media-breakpoint-down(md) {
+      padding-top: 170px;
+    }
+    h6 {
+      font-weight: 400;
+      font-size: 20px;
+      color: #ffffff;
+    }
+    h2 {
+      font-weight: 600;
+      font-size: 40px;
+      color: #ffffff;
+    }
+    h3 {
+      font-weight: 400;
+      font-size: 36px;
+      color: #ffffff;
+    }
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .btn-hire-me {
+      border-radius: 4px;
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      @include button-variant(#f77c57, transparent);
+      color: #fff;
+    }
+
+    .btn-cv {
+      color: #fff;
+      box-shadow: (0px 4px 4px rgba(0, 0, 0, 0.25));
+      @include button-variant(transparent, transparent);
+      border: 2px solid #f77c57;
+    }
+
+    .img-hero {
+      img {
+        width: 80%;
+      }
+    }
+  }
+
+  .about-me {
+    background-color: #282a39;
+    padding-top: 100px;
+    padding-bottom: 70px;
+
+    @include media-breakpoint-down(md) {
+      .img-about {
+        padding-bottom: 40px;
+      }
+    }
+
+    h3 {
+      padding-bottom: 70px;
+      font-weight: 500;
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    h6 {
+      font-size: 16px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+
+    .title {
+      font-weight: 600;
+      font-size: 24px;
+      color: #ffffff;
+      @include media-breakpoint-down(md) {
+        font-weight: 600;
+        font-size: 18px;
+      }
+    }
+
+    .description {
+      p {
+        font-weight: 300;
+        font-size: 14px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .my-skill {
+    background-color: #282a39;
+    padding-top: 0px;
+    padding-bottom: 100px;
+
+    .title {
+      padding-bottom: 70px;
+      font-weight: 500;
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    .title-skill {
+      font-weight: 500;
+      font-size: 24px;
+      color: #ffffff;
+    }
+
+    .progress {
+      border-radius: 8px !important;
+      .progress-bar {
+        background-color: #f77c57 !important;
+      }
+    }
+  }
+
+  .specialized {
+    background-color: #333647;
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+    .content-special {
+      padding-bottom: 60px;
+    }
+    h5 {
+      font-size: 24px;
+      font-weight: 400;
+      color: #ffffff;
+    }
+
+    h3 {
+      padding-bottom: 70px;
+      font-weight: 500;
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    .description {
+      .title {
+        font-weight: 500;
+        font-size: 24px;
+        color: #ffffff;
+      }
+      p {
+        font-weight: 300;
+        font-size: 14px;
+        color: #ffffff;
+      }
+    }
+  }
+
+  .my-portfolio {
+    background-color: #282a39;
+    padding-top: 100px;
+    padding-bottom: 100px;
+
+    .title {
+      h3 {
+        font-weight: 500;
+        font-size: 36px;
+        color: #ffffff;
+      }
+      p {
+        font-weight: 300;
+        font-size: 16px;
+        color: #ffffff;
+      }
+    }
+
+    .portfolio-item {
+      margin-bottom: 30px;
+
+      .portfolio-info {
+        h4 {
+          font-size: 18px;
+          color: #f77c57;
+        }
+        p {
+          font-weight: 300;
+          color: #fff;
+          font-size: 14px;
+        }
+      }
+    }
+  }
+
+  .contact-me {
+    background-color: #333647;
+    padding-top: 70px;
+    padding-bottom: 100px;
+
+    h3 {
+      font-weight: 500;
+      font-size: 36px;
+      color: #ffffff;
+    }
+
+    p {
+      font-weight: 300;
+      font-size: 16px;
+      color: #ffffff;
+    }
+
+    .email-raul {
+      font-size: 20px;
+      font-weight: 600;
+      color: #f77c57;
+    }
+
+    .wa-raul {
+      font-weight: 500;
+      font-size: 20px;
+      color: #ffffff;
+    }
+
+    .follow-me {
+      @include media-breakpoint-down(md) {
+        margin-bottom: 70px;
+      }
+      h4 {
+        font-weight: 500;
+        font-size: 24px;
+        color: #ffffff;
+      }
+    }
+
+    .btn-send {
+      @include button-variant(#f77c57, transparent);
+      color: #fff;
+    }
+  }
+}
