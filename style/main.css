@@ -10945,15 +10945,15 @@ footer p {
   }
 }
 
-.page-home .section-hero h6 {
-  font-weight: 400;
-  font-size: 20px;
-  color: #ffffff;
-}
-
 .page-home .section-hero h1 {
   font-weight: 600;
   font-size: 40px;
+  color: #ffffff;
+}
+
+.page-home .section-hero h6 {
+  font-weight: 400;
+  font-size: 20px;
   color: #ffffff;
 }
 
